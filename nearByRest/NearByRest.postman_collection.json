@@ -1,0 +1,50 @@
+{
+	"info": {
+		"_postman_id": "e4af8732-93e4-4b4d-81d8-f10053ce93f6",
+		"name": "NearByRest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24767275"
+	},
+	"item": [
+		{
+			"name": "Get Data of Location",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/restAPI/location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restAPI",
+						"location"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Data of user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/restAPI/location",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"restAPI",
+						"location"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
